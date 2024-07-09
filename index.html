@@ -1,0 +1,490 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Based off of this template: https://getbootstrap.com/docs/4.1/examples/offcanvas/ -->
+
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>NSF Causal Foundations for Decision Making and Learning</title>
+
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-27875070-4", "auto");
+      ga("send", "pageview", "/why21");
+    </script>
+
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <style type="text/css">
+      .text-white-50 {
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      .bg-color {
+        background-color: #315cd3;
+      }
+
+      .border-bottom {
+        border-bottom: 1px solid #e5e5e5;
+      }
+
+      .box-shadow {
+        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+      }
+
+      .lh-100 {
+        line-height: 1;
+      }
+
+      .lh-125 {
+        line-height: 1.25;
+      }
+
+      .lh-150 {
+        line-height: 1.5;
+      }
+
+      .jumbotron-billboard .img {
+        margin-bottom: 0px;
+        color: #fff;
+        background: #fff url("images/newtons_balls_blurred_cropped.png") top center no-repeat;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+
+      .jumbotron h1 {
+        margin-top: 0;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 800;
+      }
+
+      .jumbotron p {
+        color: rgb(78, 78, 78);
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 600;
+      }
+
+      .jumbotron {
+        position: relative;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .jumbotron .container {
+        position: relative;
+        z-index: 2;
+      }
+
+      @media screen and (max-width: 768px) {
+        .jumbotron {
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+      }
+
+      .jumbotron .graphic {
+        width: 30%;
+        padding-top: 12px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .jumbotron .graphic {
+          width: 70%;
+          padding-top: 12px;
+        }
+      }
+
+      @media (max-width: 450px) {
+        .jumbotron-heading {
+          font-size: 30px;
+        }
+      }
+
+      .anchoritem {
+        display: block;
+        padding-top: 4rem;
+        margin-top: -4rem;
+      }
+
+      .schedule {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+      .list-inline li {
+        display: inline-block;
+        margin: 5px;
+      }
+
+      .list-inline img {
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body
+    data-spy="scroll"
+    data-target="#navbarCollapse"
+    class="bg-light"
+    style="min-height: 75rem;margin-top:3rem;"
+  >
+    <nav
+      class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"
+    >
+      <a class="navbar-brand" href="#">NSF Causal DM</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="#pi" class="nav-link">Pi's</a>
+          </li>
+          <li class="nav-item">
+            <a href="#abstract" class="nav-link">Abstract</a>
+          </li>
+          <li class="nav-item">
+            <a href="#team" class="nav-link">Research Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="#grant-info" class="nav-link">Grant Information</a>
+          </li>
+          <li class="nav-item">
+            <a href="research.html" class="nav-link">Accepted Papers</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main">
+      <section class="jumbotron text-center jumbotron-billboard">
+        <!--padding-bottom:0;-->
+        <div class="img"></div>
+        <div class="container">
+          <br><br>
+          <br>
+          <h1 class="jumbotron-heading" style="color: white; text-shadow: 3px 3px black;">
+            NSF Causal Foundations for Decision Making and Learning
+          </h1>
+          <br><br>
+          <h2 class="jumbotron-heading" style="color: white; text-shadow: 2px 2px black;">
+              October 1st, 2023
+          </h2>
+          <!-- <br>
+          <h2 class="jumbotron-heading" style="color: white; text-shadow: 2px 2px black;">
+            NSF Causal DM
+          </h2> -->
+          <br>
+          <!--<p>
+                    <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                    <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                    </p>-->
+          
+          <!--<img src="cause_effect.svg" class="graphic" />
+                <div style="word-spacing: 15px; padding-top: 30px; padding-bottom: 20px;">
+                    <a href="#motivation">Motivation</a>
+                    <a href="#topics">Topics</a>
+                    <a href="#logistics">Logistics</a>
+                    <a href="#organizers">Organizers</a>
+                </div>-->
+        </div>
+      </section>
+      <!--
+        <div class="d-flex align-items-center p-4 my-4 text-white-50 bg-color rounded box-shadow">
+            <div class="lh-100">
+                <h5 class="mb-2 text-white lh-100 mt-2">Beyond Curve Fitting: Causation, Counterfactuals, and Imagination-based AI </h5>
+                <h6>Something Syposium 2018</h6>
+            </div>
+        </div>-->
+
+
+
+
+        <div class="container">
+          <div class="my-3 p-3 bg-white rounded box-shadow">
+            <h5 class="border-bottom border-gray pb-2 mb-0 anchoritem" id="pi">
+              Principle Investigators
+            </h5>
+            <div class="media text-muted pt-3">
+              <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded" />
+              <div class="d-flex flex-column w-100">
+                <ul class="list-inline" style="line-height: 25px; text-align: center;">
+                  <li>
+                    <a href="https://causalai.net/" target="_blank" rel="noopener"><b><img src="images/people/elias_pic.png"
+                          class="rounded-circle" width="150" height="150" /><br />Elias Bareinboim</b></a> <br />(Columbia
+                    University)
+                  </li>
+        
+                  <li>
+                    <a href="https://ics.uci.edu/~dechter/index.html" target="_blank" rel="noopener"><b><img src="images/people/rina_pic2.png"
+                          class="rounded-circle" width="150" height="150" /><br />
+                        Rina Dechter
+                      </b></a> <br />(UC Irvine)
+                  </li>
+                  <li>
+                    <a href="https://groups.cs.umass.edu/shlomo/" target="_blank" rel="noopener"> <b><img src="images/people/shlomo_pic.png"
+                          class="rounded-circle" width="150" height="150" /><br />Shlomo Zilberstein</b> </a> <br />(UMass
+                    Amherst)
+                  </li>
+                  <li>
+                    <a href="http://idm-lab.org/" target="_blank" rel="noopener"><img src="images/people/sven_pic.png" class="rounded-circle"
+                        width="150" height="150" /><br /><b> Sven Koenig </b></a> <br />(USC)
+                  </li>
+                  <li>
+                    <a href="https://faculty.sites.iastate.edu/jtian/" target="_blank" rel="noopener"><b><img src="images/people/jin_pic.png"
+                          class="rounded-circle" width="150" height="150" /><br />Jin Tian</b></a> <br />(Iowa State University)
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="my-3 p-3 bg-white rounded box-shadow">
+            <h5 class="border-bottom border-gray pb-2 mb-0 anchoritem" id="abstract">
+              Abstract
+            </h5>
+            <div class="media text-muted pt-3">
+              <p class="media-body pb-1 mb-0 medium lh-125">
+                Artificial intelligence (AI) has become ubiquitous in our daily lives, and the importance of decision-making as
+                a scientific challenge has increased dramatically. Decisions that were once made by humans are increasingly
+                delegated to automated systems or made with their assistance. However, despite substantial recent progress, the
+                current generation of AI technology is lacking in explainability, robustness, and adaptability capabilities,
+                which hinders trust in AI. There is a growing recognition that robust decision-making requires an understanding
+                of the often complex and dynamic causal mechanisms underlying the environment, while most of the current
+                formalisms in AI lack explicit treatment of causal mechanisms. This project brings together the power of causal
+                modeling and AI decision-making and learning to produce AI systems that rely on less data, can better justify
+                and explain their decisions to people, better react to new circumstances, and consequently are safer and more
+                trustworthy. The project produces new foundations - principles, methods, and tools - for causal decision-making
+                systems. It enriches the traditional AI formalisms with causal ingredients for more efficient, robust,
+                generalizable, and explainable decision-making with the potential to fundamentally transform the AI
+                decision-making field. The theory will be evaluated through real-world use-cases in robotics and public health.
+                The researchers will make extensive educational efforts, and develop training content with a focus on mentorship
+                and broadening the participation of underrepresented groups. The team will engage in knowledge transfer
+                activities including authoring an introductory book on causal decision-making and organizing events to discuss
+                AI and decision-making topics.
+                <br><br>
+                This project integrates the framework of structural causal models with the leading approaches for
+                decision-making in AI, including model-based planning with Markov decision processes and their extensions,
+                reinforcement learning, and graphical models such as influence diagrams. The outcomes revolutionize traditional
+                AI decision-making with causal modeling toward developing more efficient, robust, generalizable, and explainable
+                decision-making systems. In three thrusts, the project develops new foundations (i.e., principles, theory, and
+                algorithms) and provides a common unified framework for causal-empowered decision-making that generalizes the
+                leading decision-making approaches. Thrust 1 studies essential aspects of causal decision-making to guarantee
+                that the decisions of autonomous agents and decision-support systems are robust, sample-efficient, and precise.
+                These goals are realized by developing methods for causality-integrated online and offline policy learning,
+                interventional planning, imitation learning, curriculum learning, knowledge transfer, and adaptation. Thrust 2
+                studies additional aspects of causal decision-making that are especially important for decision-support systems
+                where humans are in the loop, including how to exploit causality for constructing explanations, decide when to
+                involve humans, and endow the systems with competence awareness and the ability to make fair decisions that
+                align with the values of their users. Thrust 3 enhances the scalability of the resulting tools and their ability
+                to reason efficiently, trade-off between both multiple objectives and between explainability and decision
+                quality, and learn a causal model of the world. Together, these thrusts will contribute to a new generation of
+                powerful AI tools for developing autonomous agents and decision-support systems.
+        
+        
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="my-3 p-3 bg-white rounded box-shadow">
+            <h5 class="border-bottom border-gray pb-2 mb-0 anchoritem" id="team">
+              Research Team
+            </h5>
+            <div class="media text-muted pt-3">
+              <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded" />
+              <div class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">
+                <!-- <div class="d-flex flex-column w-50"> -->
+        
+                <div class="row">
+                  <div class="col-sm">
+                    <ul class="list-unstyled" style="line-height: 25px">
+        
+                      <!-- <h5>Co-Investigators</h5> -->
+                      <u>
+                        <h6>Co-Investigators</h6>
+                      </u>
+                      <div style="padding-left: 0px">
+                        <li><a href="https://bayes.cs.ucla.edu/jp_home.html" target="_blank" rel="noopener">Judea Pearl</a>
+                          (UCLA)</li>
+                        <li><a href="https://ics.uci.edu/~ihler/index.html" target="_blank" rel="noopener">Alexander Ihler</a>
+                          (UC Irvine)</li>
+                        <li><a href="https://royf.org/" target="_blank" rel="noopener">Roy Fox</a> (UC Irvine)</li>
+                      </div>
+        
+                      <br>
+                      <!-- <h5>Post Doctoral Students</h5> -->
+                      <u>
+                        <h6>Post Doctoral Students</h6>
+                      </u>
+                      <div style="padding-left: 0px">
+                        <li>Junkyu Lee (IBM)</li>
+                        <li>Thomy Phan (USC)</li>
+                      </div>
+        
+                    </ul>
+                  </div>
+        
+                  <div class="col-sm">
+                    <ul class="list-unstyled" style="line-height: 25px">
+                      <!-- <h5>Students</h5> -->
+                      <u>
+                        <h6>Students</h6>
+                      </u>
+                      <div style="padding-left: 0px">
+                        <li>Anna Raichev (UC Irvine)</li>
+                        <li>Bobak Pezeshki (UC Irvine)</li>
+                        <li>Davide Corsi (UC Irvine)</li>
+                        <li>Kyungmin Kim (UC Irvine)</li>
+                        <li>Nicholas Cohen (UC Irvine)</li>
+        
+                        <li>Aurghya Maiti (???)</li>
+                        <li>Florence Hudson (???)</li>
+                        <li>George Hripscsak (???)</li>
+                        <li>Mingxuan Li (???)</li>
+                        <li>Lina Valeri (???)</li>
+                        <li>Abhinav Bhati (???)</li>
+                        <li>Scott (???)</li>
+                      </div>
+        
+                    </ul>
+                  </div>
+                </div>
+        
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="my-3 p-3 bg-white rounded box-shadow">
+            <h5 class="border-bottom border-gray pb-2 mb-0 anchoritem" id="grant-info">
+              Grant Information
+            </h5>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>
+                    <h6 style="color: black;">
+                      NSF Org:
+                    </h6>
+                  </td>
+                  <td>
+                    <a href="http://www.nsf.gov/div/index.jsp?div=CNS" target="_blank" rel="noopener">CNS</a>
+                    <br>
+                    <a href="http://www.nsf.gov/div/index.jsp?div=CNS" target="_blank" rel="noopener">Division Of Computer and
+                      Network Systems</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h6 style="color: black;">
+                      Principal Investigators::
+                    </h6>
+                  </td>
+                  <td>
+                    Elias Bareinboim
+                    <br>
+                    Rina Dechter
+                    <br>
+                    Shlomo Zilberstein
+                    <br>
+                    Sven Koenig
+                    <br>
+                    Jin Tian
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h6 style="color: black;">
+                      NSF Program(s):
+                    </h6>
+                  </td>
+                  <td>
+                    CISE Core: Large Projects
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            For more information see the <a
+              href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2321786&HistoricalAwards=false" target="_blank" rel="noopener">NSF award</a> page.
+          </div>
+        </div>
+
+
+        </div>
+       
+       <div class="my-3 p-3 bg-white rounded box-shadow">
+         <div class="media text-muted pt-3">
+        <p class="text-center media-body pb-1 mb-0 medium lh-125"> 
+          For questions please contact us at <a href="mailto:nsf-causal-dm@gmail.com"> nsf-causal-dm@gmail.com </a>
+        </p>
+      </div>
+      </div>
+       </div>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

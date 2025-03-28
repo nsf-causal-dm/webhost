@@ -26,6 +26,7 @@ html_research_entry_template="""
                       </a>
                       <br>
                       {author}.
+                      <br>
                       "{title}".
                       <br>
                       <i>{booktitle}</i>, {year}.

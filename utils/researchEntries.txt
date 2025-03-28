@@ -11,6 +11,7 @@
                       </a>
                       <br>
                       Yuta Kawakami, Manabu Kuroki, Jin Tian.
+                      <br>
                       "Probabilities of Causation for Continuous and Vector Variables".
                       <br>
                       <i>Proceedings of the Fortieth Conference on Uncertainty in Artificial Intelligence</i>, 2024.
@@ -24,6 +25,7 @@
                       </a>
                       <br>
                       Yuta Kawakami, Manabu Kuroki, Jin Tian.
+                      <br>
                       "Identification and Estimation of Conditional Average Partial Causal Effects via Instrumental Variable".
                       <br>
                       <i>Proceedings of the Fortieth Conference on Uncertainty in Artificial Intelligence</i>, 2024.
@@ -37,6 +39,7 @@
                       </a>
                       <br>
                       Vincent Hsiao, Dana S Nau, Bobak Pezeshki, Rina Dechter.
+                      <br>
                       "Surrogate Bayesian Networks for Approximating Evolutionary Games".
                       <br>
                       <i>Proceedings of The 27th International Conference on Artificial Intelligence and Statistics</i>, 2024.
@@ -50,6 +53,7 @@
                       </a>
                       <br>
                       Saaduddin Mahmud, Marcell Vazquez-Chanlatte, Stefan J. Witwicki, Shlomo Zilberstein.
+                      <br>
                       "Explaining the Behavior of POMDP-based Agents Through the Impact of Counterfactual Information".
                       <br>
                       <i>AAMAS</i>, 2024.
@@ -63,6 +67,7 @@
                       </a>
                       <br>
                       Kyungmin Kim, Charless Fowlkes, Roy Fox.
+                      <br>
                       "Make the Pertinent Salient: Task-Relevant Reconstruction for Visual Control with Distraction".
                       <br>
                       <i>Workshop on Training Agents with Foundation Models at RLC 2024</i>, 2024.
@@ -76,6 +81,7 @@
                       </a>
                       <br>
                       Davide Corsi, Guy Amir, Andoni Rodríguez, Guy Katz, César Sánchez, Roy Fox.
+                      <br>
                       "Verification-Guided Shielding for Deep Reinforcement Learning".
                       <br>
                       <i>Reinforcement Learning Journal</i>, 2024.
@@ -89,6 +95,7 @@
                       </a>
                       <br>
                       Chi Zhang, Ang Li, Scott Mueller, Rumen Iliev.
+                      <br>
                       "Causal AI Framework for Unit Selection in Optimizing Electric Vehicle Procurement".
                       <br>
                       <i>2nd Workshop on Sustainable AI</i>, 2024.
@@ -102,6 +109,7 @@
                       </a>
                       <br>
                       Bobak Pezeshki, Kalev Kask, Alexander Ihler, Rina Dechter.
+                      <br>
                       "Value-Based Abstraction Functions for Abstraction Sampling".
                       <br>
                       <i>Proceedings of the Fortieth Conference on Uncertainty in Artificial Intelligence</i>, 2024.
@@ -115,6 +123,7 @@
                       </a>
                       <br>
                       Armin Karamzade, Kyungmin Kim, Montek Kalsi, Roy Fox.
+                      <br>
                       "Reinforcement Learning from Delayed Observations via World Models".
                       <br>
                       <i>Reinforcement Learning Journal</i>, 2024.
@@ -128,6 +137,7 @@
                       </a>
                       <br>
                       Anna Raichev, Alexander Ihler, Jin Tian, Rina Dechter.
+                      <br>
                       "Estimating Causal Effects from Learned Causal Networks".
                       <br>
                       <i>9th Causal Inference Workshop at UAI</i>, 2024.
@@ -141,6 +151,7 @@
                       </a>
                       <br>
                       Ang Li, Judea Pearl.
+                      <br>
                       "Probabilities of Causation with Nonbinary Treatment and Effect".
                       <br>
                       <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>, 2024.
@@ -154,6 +165,7 @@
                       </a>
                       <br>
                       Ang Li, Judea Pearl.
+                      <br>
                       "Unit Selection with Nonbinary Treatment and Effect".
                       <br>
                       <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>, 2024.
@@ -167,6 +179,7 @@
                       </a>
                       <br>
                       Alexis Bellot, Junzhe Zhang, Elias Bareinboim.
+                      <br>
                       "Scores for Learning Discrete Causal Graphs with Unobserved Confounders".
                       <br>
                       <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>, 2024.
@@ -185,6 +198,7 @@
                       </a>
                       <br>
                       Yonghan Jung, Jin Tian, Elias Bareinboim.
+                      <br>
                       "Estimating Joint Treatment Effects by Combining Multiple Experiments".
                       <br>
                       <i>Proceedings of the 40th International Conference on Machine Learning</i>, 2023.
@@ -198,6 +212,7 @@
                       </a>
                       <br>
                       Yonghan Jung, Ivan Diaz, Jin Tian, Elias Bareinboim.
+                      <br>
                       "Estimating Causal Effects Identifiable from a Combination of Observations and Experiments".
                       <br>
                       <i>Advances in Neural Information Processing Systems</i>, 2023.
@@ -211,6 +226,7 @@
                       </a>
                       <br>
                       Tara V. Anand, Adele H. Ribeiro, Jin Tian, Elias Bareinboim.
+                      <br>
                       "Causal Effect Identification in Cluster DAGs".
                       <br>
                       <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>, 2023.
@@ -224,6 +240,7 @@
                       </a>
                       <br>
                       Kevin Muyuan Xia, Yushu Pan, Elias Bareinboim.
+                      <br>
                       "Neural Causal Models for Counterfactual Identification and Estimation".
                       <br>
                       <i>The Eleventh International Conference on Learning Representations </i>, 2023.
@@ -237,6 +254,7 @@
                       </a>
                       <br>
                       Kangrui Ruan, Junzhe Zhang, Xuan Di, Elias Bareinboim.
+                      <br>
                       "Causal Imitation Learning via Inverse Reinforcement Learning".
                       <br>
                       <i>The Eleventh International Conference on Learning Representations </i>, 2023.
@@ -250,6 +268,7 @@
                       </a>
                       <br>
                       Julius von Kügelgen, Michel Besserve, Wendong Liang, Luigi Gresele, Armin Kekić, Elias Bareinboim, David Blei, Bernhard Schölkopf.
+                      <br>
                       "Nonparametric Identifiability of Causal Representations from Unknown Interventions".
                       <br>
                       <i>Thirty-seventh Conference on Neural Information Processing Systems</i>, 2023.
@@ -263,6 +282,7 @@
                       </a>
                       <br>
                       Drago Plecko, Elias Bareinboim.
+                      <br>
                       "Causal Fairness for Outcome Control".
                       <br>
                       <i>Advances in Neural Information Processing Systems</i>, 2023.
@@ -276,6 +296,7 @@
                       </a>
                       <br>
                       Adam Li, Amin Jaber, Elias Bareinboim.
+                      <br>
                       "Causal discovery from observational and interventional data across multiple environments".
                       <br>
                       <i>Advances in Neural Information Processing Systems</i>, 2023.
@@ -289,6 +310,7 @@
                       </a>
                       <br>
                       Abhinav Bhatia, Samer Nashed, Shlomo Zilberstein.
+                      <br>
                       "RLˆ3: Boosting Meta Reinforcement Learning via RL inside RLˆ2".
                       <br>
                       <i>NeurIPS 2023 Workshop on Generalization in Planning</i>, 2023.

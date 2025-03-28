@@ -133,6 +133,6 @@ Adam Li, Amin Jaber, Elias Bareinboim. \\
 
 **[C001]** [PDF](papers/C001.pdf) \\
 Abhinav Bhatia, Samer Nashed, Shlomo Zilberstein. \\
-"RL$ˆ3$: Boosting Meta Reinforcement Learning via RL inside RL$ˆ2$". \\
+"RLˆ3: Boosting Meta Reinforcement Learning via RL inside RLˆ2". \\
 *NeurIPS 2023 Workshop on Generalization in Planning*, 2023.
 
